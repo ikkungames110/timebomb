@@ -1,0 +1,19 @@
+{
+  "name": "timebomb",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "タイムボム — 正体隠匿の導線カットゲームをスマホでP2P対戦",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "test": "node --test test/game.test.js"
+  },
+  "dependencies": {
+    "peerjs": "^1.5.4"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
