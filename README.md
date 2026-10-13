@@ -35,7 +35,7 @@ npm test
 - 厳しい NAT 環境では `VITE_TURN_URL` / `VITE_TURN_USER` / `VITE_TURN_PASS` を設定して TURN を使ってください。
 
 ## デプロイ
-Cloudflare Pages（プロジェクト名 `timebomb`）。プロジェクト外のディレクトリから実行します。
+Cloudflare Pages（https://timebomb-9aa.pages.dev/ 、プロジェクト名 `timebomb`）。プロジェクト外のディレクトリから実行します。
 ```
 npm run build && (cd /tmp && npx wrangler pages deploy "$OLDPWD/dist" --project-name timebomb --branch main)
 ```
